@@ -1,0 +1,15 @@
+server:
+  port: 8008
+
+person:
+  lastName: ahmed
+  age: 33
+  boss: false
+  birth: 1999/12/12
+  maps: {k1: v1, k2: 12}
+  lists:
+    - abdullah
+    - muhammed
+  dog:
+    name: it
+    age: 3
