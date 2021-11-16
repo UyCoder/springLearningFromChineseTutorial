@@ -12,6 +12,8 @@ import java.util.Map;
 // prefix="person" yml dosyasindaki hangi block'u kullanacagini belirliyor.
 // @Component ekelendikten sonra calisacak.
 
+// ConfigurationProperties dan data cekmek daha kolay ve basit olacak.
+
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {
@@ -23,6 +25,7 @@ public class Person {
     private Map<String, Object> maps;
     private List<Object> lists;
     private Dog dog;
+
 
     @Override
     public String toString() {

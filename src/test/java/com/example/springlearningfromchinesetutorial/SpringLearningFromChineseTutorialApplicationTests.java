@@ -13,7 +13,6 @@ class SpringLearningFromChineseTutorialApplicationTests {
     @Autowired
     Person person;
 
-
     @Test
     void contextLoads() {
         System.out.println(person);
